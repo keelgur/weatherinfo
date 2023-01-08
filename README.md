@@ -12,9 +12,9 @@ So, there's only one API provider, but command for configuring provider is still
 weatherinfo get <address> [date=now]
 weatherinfo configure <provider>
 ```
-`date` is an optional parameter. If none is handled(None item), then current local date will be taken.
-<provider> handled to the application is saved to file cfg.txt.
-<address> must be entered in YYYY-mm-dd format(e.g. 2023-01-08).
+`[date]` is an optional parameter. If none is handled(None item), then current local date will be taken.
+`<provider>` handled to the application is saved to file cfg.txt.
+`<address>` must be entered in YYYY-mm-dd format(e.g. 2023-01-08).
 
   # Examples
   ```
